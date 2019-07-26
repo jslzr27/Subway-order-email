@@ -1,0 +1,46 @@
+{{{A TAGS}}}
+
+<a href="#" style="color: #2792ec; font-weight: 600; font-size: 14px; text-decoration: none;">
+
+{{{P TAGS}}}
+
+<p style="color: #7F887F; font-weight: 400; line-height: 1,8; font-size: 14px; font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">
+
+{{{hEADERS}}}
+
+<h3 style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-weight: 300; font-size: 24px; ;padding: 24px 0px 4px 0px">
+
+{{{FONTS}}}
+
+"font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;"
+
+{{{TABLES}}}
+
+<table class="join-together-container" width="100%" cellspacing="0" cellpadding="0" style="padding: 25px 0 75px;">
+
+{{{TD}}}
+
+<td style="color: #333333; font-weight: 600; font-size: 14px; text-transform: uppercase; padding: 0 0 0 15px;">
+
+{{{TABLES}}}
+
+<table class="" width="100%" cellspacing="0" cellpadding="0">
+
+{{{WIREFRAME}}}
+<!--Start of Email-->
+    <table class="email" width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+            <td>
+                <!--Start of Container-->
+                <table class="container" style="text-align: center; background: white;" width="600px" cellspacing="0" cellpadding="0">
+                <!--Start putting your rows below-->
+                </table>
+            </td>
+        </tr>
+    </table>
+
+{{{IMAGES}}}
+
+[url=https://postimg.cc/H8z4m8bM][img]https://i.postimg.cc/H8z4m8bM/logo.png[/img][/url]
+
+[url=https://postimg.cc/s1rkVFpf][img]https://i.postimg.cc/s1rkVFpf/small.png[/img][/url]

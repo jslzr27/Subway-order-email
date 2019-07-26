@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Subway Receipt Email</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <style>
+    /*Desktop Version*/
+    @media only screen and (min-width: 960px){
+        html, body{
+                padding: 0;
+                margin: 0;
+                overflow-x: hidden !important;
+            }
+    }
+    /*Midsize Version*/
+    @media only screen and (max-width: 960px){
+        html, body{
+                padding: 0;
+                margin: 0;
+                overflow-x: hidden !important;
+            }
+    }
+    /*Mobile Version*/
+    @media only screen and (max-width: 600px){
+        html, body{
+                padding: 0;
+                margin: 0;
+                overflow-x: hidden !important;
+            }
+        .container {
+            width: 100vw !important;
+        }
+    }
+    </style>
+</head>
+<body>
+    <!--Start of Email-->
+    <table class="email" width="100%" cellspacing="0" cellpadding="0" style="background: transparent; text-align: center; display: flex; justify-content: center; align-items: center;">
+        <tr>
+            <td>
+                <!--Start of Container-->
+                <table class="container" style="text-align: center; background: white; font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; padding: 15px; border-radius: 8px;" width="600px" cellspacing="0" cellpadding="0">
+                <!--Start putting your rows below-->
+                
+                <!--Header Row-->
+                    <tr>
+                        <td>
+                            <table class="header" width="100%" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="logo" style="text-align: left;">
+                                        <img width="180" height="32" src="https://i.postimg.cc/H8z4m8bM/logo.png">
+                                    </td>
+                                    <td>
+                                        <table class="links" width="100%" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>
+                                                    <a href="#" style="color: #009132; text-decoration: none; font-weight: 500">Menu</a>
+                                                </td>
+                                                <td>
+                                                    <a href="#" style="color: #009132; text-decoration: none; font-weight: 500">Find a Store</a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                <!--Header Row End-->
+
+                <!--Order Row-->
+                    <tr>
+                        <td>
+                            <table class="order" style="text-align: center; background: white;" width="100%" cellspacing="0" cellpadding="0">
+                                <tr>    
+                                    <td>
+                                        <table class="header-table" width="100%" cellspacing="0" cellpadding="0" >
+                                            <tr>
+                                                <!--Green part-->
+                                                <td height="24px" style="width: 100%; background: #009132; border-top-left-radius: 8px; border-top-right-radius: 8px; color: #009132;">
+                                                    .
+                                                </td>
+                                            </tr>
+                                        <tr>
+                                            <!--Gray part-->
+                                            <td height="40px" style="width: 100%; background: rgb(170,170,170);
+                                            background: linear-gradient(0deg, rgba(170,170,170,1) 18%, rgba(253,253,253,1) 92%);">
+                                                <p style="margin:0; padding:0; color: #009132; font-weight: 500">Order Number: A448D35B-96</p>
+                                            </td>
+                                        </tr>
+                                        <!--Text-->
+                                        <tr>
+                                            <td style="padding-bottom: 30px; border-bottom: 1px dashed lightgray; font-size: 16px; font-weight: 400; color: #5a5a5a; text-align: left;">
+                                                <p>  
+                                                    Thank you for your order! We'll take it from here.
+                                                    You may pick up your order at the register when you arrive. Look for the Express Pick-up sign in-restaurant when you come in!
+                                                    <br><br>
+                                                    Your order details are below.
+                                                </p>
+                                            </td>
+                                        </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                <!--Order Row End-->
+                <!--Detail Row-->
+                    <tr>
+                        <td>
+                            <table class="details" width="100%" cellspacing="0" cellpadding="0">
+                                <!--Description-->
+                                <tr>
+                                    <td width="100%"> 
+                                        <p width="100%" style="font-size: 16px; font-weight: 400; color: #5a5a5a; text-align: left;">
+                                            <span style="font-weight: 700;">Order Type:</span> Pickup
+                                            <br>
+                                            <span style="font-weight: 700;">Pickup:</span> Sat, Feb 23 at 5:25 PM
+                                            <br>
+                                            <span style="font-weight: 700;">Order Date:</span> February 23, 2018
+                                        </p>
+                                    </td>
+                                </tr>
+                                <!--Contact-->
+                                <tr>
+                                    <td>
+                                        <table class="details" width="100%" cellspacing="0" cellpadding="0">
+                                            <td style="padding-bottom: 25px; width: 50%">
+                                                    <p style="margin:0; padding:0; color: #009132; font-weight: 500; text-align: left;">
+                                                        Restaurant
+                                                    </p>
+                                                    <p style="color: #5a5a5a; text-align: left; margin:0; padding:0;">
+                                                        <span style="font-weight: 700;">Store #:</span> 159
+                                                        <br>
+                                                        1900 W. Main Street
+                                                        <br>
+                                                        Orlando FL
+                                                        <br>
+                                                        32837, US
+                                                    </p> 
+                                                </td>
+                                                <td style="vertical-align: top; width: 50%">
+                                                    <p style="margin:0; padding:0; color: #009132; font-weight: 500; text-align: left;">
+                                                        Contact Details
+                                                    </p>
+                                                    <p style="color: #5a5a5a; text-align: left; margin:0; padding:0;">
+                                                        <span style="font-weight: 700;">Name:</span> John Doe<br>
+                                                        <span style="font-weight: 700;">Company:</span> Acme
+                                                    </p> 
+                                                </td>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--Payment-->
+                                <tr>
+                                    <td style="padding-bottom: 20px;">
+                                        <p style="color: #5a5a5a; text-align: left; margin:0; padding:0;">
+                                            <span style="font-weight: 700;">Payment Status:</span> Paid on Sat, Feb 23
+                                            <br>
+                                            <span style="font-weight: 700;">Payment Approval #:</span> 623-416-1123324 ($8.06 with Visa ***1234 AuthNumber:835432)
+                                            <br><br>
+                                            <span style="font-weight: 700;">Special Instructions:</span> Extra mustard
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                <!--Detail Row End-->
+
+                <!--Receipt Row-->
+                    <tr>
+                        <td>
+                            <table class="receipt" width="100%" cellspacing="0" cellpadding="0" style="border:1px solid #009132; margin-bottom: 36px;">
+                                <thead height="30px" style="background: #009132; color: white; text-transform: uppercase; text-align: left;">
+                                    <tr>
+                                        <th>
+                                            QTY
+                                        </th>
+                                        <th style="padding: 10px;">
+                                            ITEM DESCRIPTION
+                                        </th>
+                                        <th style="text-align: right; padding: 0 5px;">
+                                            PRICE
+                                        </th>
+                                        <th style="text-align: right; padding: 0 5px;">
+                                            AMOUNT
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody style="color: #009132; font-weight: 500; text-align: left; line-height: 1.8;">
+                                    <!--Sandwich-->
+                                    <tr>
+                                        <td style="background: #e1ece3; text-align: center;">
+                                            1
+                                        </td>
+                                        <td style="font-weight: 700; padding-left: 12px;">
+                                            12" Sweet Onion Chicken Teriyaki
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $7.49
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $7.49
+                                        </td>
+                                    </tr>
+                                    <!--Condiments-->
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="font-weight: 400; line-height:1.2; padding-left: 12px;">
+                                            Sunflower Crunch<br>
+                                            Not Toasted<br>
+                                            No Cheese<br>
+                                            Lettuce<br>
+                                            Spinach<br>
+                                            Tomatoes<br>
+                                            Cucumbers<br>
+                                            Green Peppers<br>
+                                            Red Onions<br>
+                                            Sweet Onion
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+
+                                        </td>
+                                    </tr>
+                                    <!--Other-->
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            SUBTOTAL
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $7.49
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            DISCOUNT APPLIED
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $0.00
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            SALES TAX
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $0.57
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            TOTAL
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $8.06
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            PAID TO DATE
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $8.06
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="background: #e1ece3">
+
+                                        </td>
+                                        <td style="padding-left: 12px;">
+                                            AMOUNT OUTSTANDING
+                                        </td>
+                                        <td>
+
+                                        </td>
+                                        <td style="text-align: right; vertical-align: bottom; padding: 0 12px;">
+                                            $0.00
+                                        </td>
+                                    </tr>
+                                </tbody>    
+                            </table>
+                        </td>
+                    </tr>
+                <!--Receipt Row End-->
+
+                <!--Footer Row-->
+                    <tr>
+                        <td>
+                            <table class="footer" width="100%" cellspacing="0" cellpadding="0">
+                                <!--Green row-->
+                                <tr>
+                                    <td height="20px" style="background: #009132; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; color: #009132;">
+                                        .
+                                    </td>
+                                </tr>
+                                <!--Logo-->
+                                <tr>
+                                    <td>
+                                        <img width="112px" height="24px" src="https://i.postimg.cc/s1rkVFpf/small.png" style="padding: 20px 0px;">
+                                    </td>
+                                </tr>
+                                <!--Trademark-->
+                                <tr>
+                                    <td style="color: #5a5a5a; font-weight: 700; font-size:10px;">
+                                        SUBWAY® is a Registered Trademark of Subway IP Inc. ©2017 Subway IP Inc. All rights reserved.
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                <!--Footer Row End-->
+
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
